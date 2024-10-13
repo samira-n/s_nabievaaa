@@ -1,0 +1,259 @@
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1230px){
+    .profile_photo{
+        width: 550px;
+    }
+
+    .block {
+        height: 230px;
+        width: 280px;
+    }
+
+    .content{
+        font-size: 30px;
+    }
+
+    .project_img{
+        width: 250px;
+        height: 180px;
+    }
+
+    .btn_green{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px){
+    .profile_photo{
+        width: 400px;
+    }
+
+    .block {
+        height: 230px;
+        width: 200px;
+    }
+
+    .block p{
+        font-size: 24px;
+    }
+
+    .block_img{
+        width: 40px;
+    }
+
+    .content{
+        font-size: 28px;
+    }
+
+    .project_img{
+        width: 200px;
+        height: 130px;
+    }
+
+    .btn_green{
+        padding: 8px;
+        font-size: 10px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 780px){
+    .profile_photo{
+        width: 300px;
+    }
+
+    .logo b{
+        font-size: 26px;
+    }
+
+    .navigation a{
+        font-size: 13px;
+    }
+
+    .left_links b{
+        font-size: 38px;
+    }
+
+    .left_links p{
+        font-size: 13px;
+    }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .about_description{
+        font-size: 13px;
+    }
+
+    .circle b{
+        font-size: 10px;
+    }
+
+    .circle p{
+        font-size: 10px;
+    }
+
+    
+
+    .block {
+        height: 180px;
+        width: 160px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block p{
+        font-size: 18px;
+    }
+
+    .block_img{
+        width: 30px;
+    }
+
+    
+    .content{
+        font-size: 20px;
+    }
+
+    .demo_projects{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project{
+        margin-bottom: 30px;
+    }
+
+    footer p{
+        font-size: 10px;
+        
+    }
+
+    
+}
+
+@media only screen and (max-width: 630px){
+
+    .profile_photo{
+        width: 200px;
+    }
+
+    .block {
+        height: 130px;
+        width: 100px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block p{
+        font-size: 10px;
+    }
+
+    .block_img{
+        width: 18px;
+    }
+
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px){
+    .profile_photo{
+        width: 180px;
+    }
+
+    .logo b{
+        font-size: 10px;
+    }
+
+    .navigation a{
+        font-size: 7px;
+    }
+
+    .left_links b{
+        font-size: 20px;
+    }
+
+    .left_links p{
+        font-size: 7px;
+    }
+
+
+
+    .title{
+        font-size: 20px;
+    }
+
+    .about_description{
+        font-size: 10px;
+    }
+
+    .circle b{
+        font-size: 7px;
+    }
+
+    .circle p{
+        font-size: 7px;
+    }
+
+    .block {
+        height: 90px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block p{
+        font-size: 10px;
+    }
+
+    .block_img{
+        width: 15px;
+    }
+
+    
+    .content{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+
+    .info_block {
+        height: 135px;
+        width: 1168px;
+        
+    }
+
+    .demo_projects{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project{
+        margin-bottom: 30px;
+    }
+
+    footer p{
+        font-size: 10px;
+        
+    }
+
+
+}

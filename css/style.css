@@ -67,13 +67,9 @@ header{
     cursor: pointer;
 }
 
-.photo img{
+.profile_photo{
     border-radius: 50%;
-}
-
-
-.about{
-    
+    width: 650px;
 }
 
 .title{
@@ -198,8 +194,10 @@ header{
     align-items: center;
 }
 
-.project img{
+.project_img{
     margin-bottom: 30px;
+    width: 345px;
+    height: 218px;
 }
 
 footer{
