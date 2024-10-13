@@ -145,6 +145,11 @@
 
 @media only screen and (max-width: 630px){
 
+    .navigation a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
     .profile_photo{
         width: 200px;
     }
@@ -166,6 +171,21 @@
         width: 18px;
     }
 
+    .content{
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    .info_block {
+        height: 100px;
+        width: 1168px;
+        
+    }
+
+    .navigation a{
+        margin-left: 20px;
+    }
+
 }
 
 
@@ -173,41 +193,45 @@
 
 @media only screen and (max-width: 480px){
     .profile_photo{
-        width: 180px;
+        width: 150px;
     }
 
     .logo b{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .navigation a{
         font-size: 7px;
+        margin-left: 20px;
     }
 
     .left_links b{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .left_links p{
         font-size: 7px;
     }
 
-
-
     .title{
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 50px;
     }
 
     .about_description{
         font-size: 10px;
     }
 
+    .circle_img{
+        width: 30px;
+    }
+
     .circle b{
-        font-size: 7px;
+        font-size: 5px;
     }
 
     .circle p{
-        font-size: 7px;
+        font-size: 5px;
     }
 
     .block {
@@ -229,12 +253,12 @@
 
     
     .content{
-        font-size: 10px;
-        margin-top: 40px;
+        font-size: 8px;
+        margin-top: 25px;
     }
 
     .info_block {
-        height: 135px;
+        height: 100px;
         width: 1168px;
         
     }
@@ -255,5 +279,23 @@
         
     }
 
+    .title{
+        margin-top: 50px
+    }
 
+    .skills{
+        margin-top: 50px;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+
+
+}
+
+@media only screen and (max-width: 390px){
+    .navigation a{
+        margin-left: 10px;
+    }
 }

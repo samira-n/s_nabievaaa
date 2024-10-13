@@ -39,6 +39,10 @@ header{
     
 }
 
+.profile_photo{
+    margin-left: 20px;
+}
+
 
 .left_links b{
     font-size: 48px;
@@ -155,7 +159,6 @@ header{
     width: 1168px;
     background-color: #212121;
     color: white;
-    margin-top: 20px;
     padding: 20px;
     box-sizing: border-box;
     
